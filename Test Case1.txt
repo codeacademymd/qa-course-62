@@ -1,0 +1,30 @@
+Test Case Id. 123
+Summary: Servers response is 200 status code when 50 users are accessing the web site at the same time. 
+Description: Server answers back with 200 status code when 50 users are trying to access the website at the simultaneously.
+Priority: High
+Test Case Type: Performance, Stress Testing
+Automation Status: No
+Preconditions: 
+- Device
+- Access to Internet
+- Apache Jmeter Installed
+Environment: www.999.md
+Test Steps:
+1.Turn On the device
+2.Connect to Internet
+3.Open JMeter IDE
+4.Click on "Name" bar
+5.Delete "Test Plan"
+6.Type "www.999.md"
+7.Perform right click on "www.999.md" on the left side
+8.Complete the rest of the fields 
+9.Save the file
+10.Click on Green triangle to Run the Request
+Test Data: www.999.md
+Expected Resul: Server answers back with 200 status code when 50 users are trying to access the website at the simultaneously.
+Actual Result: Server answers back with 200 status code when 50 users are trying to access the website at the simultaneously.
+Attachment: img.2
+Execution Status: Passed
+
+
+
