@@ -1,0 +1,35 @@
+Test case: 101
+Descriere: Serverul raspunde cu statutul 200 pentru toti cei 50 de utilizatori care acceseaza site-ul simultan
+Prioritate: Mare 
+Tipul Test Case: UI testing, Compatibility, Black Box testing, Internationalizare & Localizare teasting 
+Statut de automatizare: Nu
+Preconditie:
+- Dispozitiv electronic (telefon)
+-Acces la Internet
+-Aplicatia Java este instalata
+-Aplicatia JMeter este instalata 
+-Datele sunt setate 
+Mediu de testare: https://www.dentplus.com.ro/
+Pasii de teastare:
+1. Porneste laptopul
+2. Conecteazate la internet 
+3. Da click pe caseta din dreapta cuvantului “Name”
+4. Tapeaza adresa URL https://www.dentplus.com.ro/
+5.  Da click dreapta pe butonul “add”
+6. Da click pe butonul “Threads”
+7. Da click pe butonul “Treaad Groups”
+8. Da click pe caseta din dreptul  cuvantului “Number of Treads”
+9. Tapeaza “50”
+10. Da click pe caseta din dreapta cuvantului “Rump-up period”
+11. Tapeaza “5”
+12. Da click pe butonul “Add ”
+13. Da click pe butonul “Sampler”
+14. Da click pe butonul “HTTP Request”
+15. Da click pe caseta din dreptul  cuvantului “Server Name or IP”
+16. Tapeaza https://www.dentplus.com.ro/
+17. Da click pe butonul “Start” din bara de meniu 
+
+Rezultatele asteptate: Serverul raspunde cu statutul 200 pentru toti cei 50 de utilizatori care acceseaza site-ul simultan
+Rezultatele actuale: Serverul raspunde cu statutul 200 pentru toti cei 50 de utilizatori care acceseaza site-ul simultan
+Atasament 
+Statusul: verificat
